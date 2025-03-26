@@ -3,4 +3,9 @@ s3:
   - name: ''
   - access_key: ''
   - secret_key: ''
-steps: []
+steps:
+  - name: Step 1
+    execute: step1.py
+  - name: Step 2
+    execute: step2.sql
+    database: core
